@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class E2_PlayerDetectedState : PlayerDetectedState
@@ -32,8 +33,20 @@ public class E2_PlayerDetectedState : PlayerDetectedState
 
         if (performCloseRangeAction)
         {
-            stateMachine.ChangeState(enemy.meleeAttackState);
-        }else if (!isPlayerInMaxAgroRange)
+            if(Time.time >= enemy.dodgeState.startTime + enemy.dodgeStateData.dodgeCooldown)
+            {
+                stateMachine.ChangeState(enemy.dodgeState);
+            }
+            else
+            {
+                stateMachine.ChangeState(enemy.meleeAttackState);
+            }            
+        }
+        else if (performLongRangeAction)
+        {
+            stateMachine.ChangeState(enemy.rangedAttackState);
+        }
+        else if (!isPlayerInMaxAgroRange)
         {
             stateMachine.ChangeState(enemy.lookForPlayerState);
         }

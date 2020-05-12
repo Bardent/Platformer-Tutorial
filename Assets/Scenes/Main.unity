@@ -120,6 +120,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &5891247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5891248}
+  m_Layer: 9
+  m_Name: RangedAttackPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5891248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5891247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3, y: -0.07, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1671423153}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &50842228
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +224,11 @@ MonoBehaviour:
     type: 2}
   stunStateData: {fileID: 11400000, guid: a70709937ac093745b1ebe44217bc75b, type: 2}
   deadStateData: {fileID: 11400000, guid: a889f74363b812944a9c285aae1606c0, type: 2}
+  dodgeStateData: {fileID: 11400000, guid: 3f4657ca74ba50a4fb7578ae5e043abd, type: 2}
+  rangedAttackStateData: {fileID: 11400000, guid: 0ad3801fd63b05b45ad2876e57223e9b,
+    type: 2}
   meleeAttackPosition: {fileID: 2116236311}
+  rangedAttackPosition: {fileID: 5891248}
 --- !u!4 &246468435
 Transform:
   m_ObjectHideFlags: 0
@@ -203,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246468433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.25, y: 7.56, z: 0}
+  m_LocalPosition: {x: -16.07, y: 7.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1671423153}
@@ -8111,7 +8145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902656317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.09, y: 8.03, z: 0}
+  m_LocalPosition: {x: -2.25, y: -5.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 986147879}
@@ -38146,6 +38180,7 @@ Transform:
   - {fileID: 2044105988}
   - {fileID: 2105771701}
   - {fileID: 2116236311}
+  - {fileID: 5891248}
   m_Father: {fileID: 246468435}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
