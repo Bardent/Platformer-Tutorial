@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WallGrab
+  m_Name: LedgeGrab
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -829907829680109160, guid: 845deaee6300d224581eaac807dbbf27,
+      value: {fileID: -3628720756820899698, guid: a2b813fdc1de4474796e2808b544f8f9,
+        type: 3}
+    - time: 0.1
+      value: {fileID: -1161963453228865433, guid: a2b813fdc1de4474796e2808b544f8f9,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,13 +44,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -829907829680109160, guid: 845deaee6300d224581eaac807dbbf27, type: 3}
+    - {fileID: -3628720756820899698, guid: a2b813fdc1de4474796e2808b544f8f9, type: 3}
+    - {fileID: -1161963453228865433, guid: a2b813fdc1de4474796e2808b544f8f9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.1
+    m_StopTime: 0.2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -66,4 +70,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.2
+    functionName: AnimationTrigger
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

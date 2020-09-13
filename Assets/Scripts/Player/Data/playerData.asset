@@ -15,10 +15,15 @@ MonoBehaviour:
   movementVelocity: 10
   jumpVelocity: 15
   amountOfJumps: 1
+  wallJumpVelocity: 20
+  wallJumpTime: 0.4
+  wallJumpAngle: {x: 1, y: 2}
   coyoteTime: 0.2
   variableJumpHeightMultiplier: 0.5
   wallSlideVelocity: 2
   wallClimbVelocity: 3
+  startOffset: {x: 0.4, y: 0.9}
+  stopOffset: {x: 0.4, y: 0.75}
   groundCheckRadius: 0.3
   wallCheckDistance: 0.5
   whatIsGround:
