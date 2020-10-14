@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerWallClimbState : PlayerTouchingWallState
 {
-    public PlayerWallClimbState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerWallClimbState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animationBoolName) : base(player, stateMachine, playerData, animationBoolName)
     {
     }
 
@@ -14,14 +14,14 @@ public class PlayerWallClimbState : PlayerTouchingWallState
 
         if (!isExitingState)
         {
-            player.SetVelocityY(playerData.wallClimbVelocity);
+            player.SetVelocityY(playerData.wallClimbSpeed);
 
-            if (yInput != 1)
+            if(player.InputHandler.NormalizedInputY != 1)
             {
                 stateMachine.ChangeState(player.WallGrabState);
             }
+
         }
 
-        
     }
 }

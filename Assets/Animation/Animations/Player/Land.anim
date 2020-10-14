@@ -20,13 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -6654455467158724130, guid: 845deaee6300d224581eaac807dbbf27,
+      value: {fileID: -5891158878626490440, guid: a08e27773b2b3044aa2bc51939e0cddc,
         type: 3}
     - time: 0.125
-      value: {fileID: -1327164506643790400, guid: 845deaee6300d224581eaac807dbbf27,
+      value: {fileID: -8857234109298407426, guid: a08e27773b2b3044aa2bc51939e0cddc,
         type: 3}
     - time: 0.25
-      value: {fileID: -3832224617532451716, guid: 845deaee6300d224581eaac807dbbf27,
+      value: {fileID: 1470667499729692001, guid: a08e27773b2b3044aa2bc51939e0cddc,
+        type: 3}
+    - time: 0.375
+      value: {fileID: -4256163108551638258, guid: a08e27773b2b3044aa2bc51939e0cddc,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -47,15 +50,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -6654455467158724130, guid: 845deaee6300d224581eaac807dbbf27, type: 3}
-    - {fileID: -1327164506643790400, guid: 845deaee6300d224581eaac807dbbf27, type: 3}
-    - {fileID: -3832224617532451716, guid: 845deaee6300d224581eaac807dbbf27, type: 3}
+    - {fileID: -5891158878626490440, guid: a08e27773b2b3044aa2bc51939e0cddc, type: 3}
+    - {fileID: -8857234109298407426, guid: a08e27773b2b3044aa2bc51939e0cddc, type: 3}
+    - {fileID: 1470667499729692001, guid: a08e27773b2b3044aa2bc51939e0cddc, type: 3}
+    - {fileID: -4256163108551638258, guid: a08e27773b2b3044aa2bc51939e0cddc, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.375
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -76,7 +80,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.375
-    functionName: AnimtionFinishTrigger
+    functionName: AnimationFinishTrigger
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

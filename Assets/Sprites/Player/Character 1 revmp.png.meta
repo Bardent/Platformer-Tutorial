@@ -1,0 +1,2465 @@
+fileFormatVersion: 2
+guid: a08e27773b2b3044aa2bc51939e0cddc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -364115077184419738
+    second: Character 1 revmp_0
+  - first:
+      213: -5979057734013288141
+    second: Character 1 revmp_1
+  - first:
+      213: 1556716071187664163
+    second: Character 1 revmp_2
+  - first:
+      213: 7804860581868718475
+    second: Character 1 revmp_3
+  - first:
+      213: -8921949858188887565
+    second: Character 1 revmp_4
+  - first:
+      213: -5453962851369608892
+    second: Character 1 revmp_5
+  - first:
+      213: 7641452634691440678
+    second: Character 1 revmp_6
+  - first:
+      213: 2978788733860981554
+    second: Character 1 revmp_7
+  - first:
+      213: -7211268765260279044
+    second: Character 1 revmp_8
+  - first:
+      213: 556343890154677201
+    second: Character 1 revmp_9
+  - first:
+      213: -8381155762203531708
+    second: Character 1 revmp_10
+  - first:
+      213: 3326161583712732565
+    second: Character 1 revmp_11
+  - first:
+      213: -3988403734318322484
+    second: Character 1 revmp_12
+  - first:
+      213: -5891158878626490440
+    second: Character 1 revmp_13
+  - first:
+      213: -8857234109298407426
+    second: Character 1 revmp_14
+  - first:
+      213: 1470667499729692001
+    second: Character 1 revmp_15
+  - first:
+      213: -4256163108551638258
+    second: Character 1 revmp_16
+  - first:
+      213: 7435968353655671696
+    second: Character 1 revmp_17
+  - first:
+      213: 8921725059482181536
+    second: Character 1 revmp_18
+  - first:
+      213: 6999494095480399273
+    second: Character 1 revmp_19
+  - first:
+      213: 6701637637929745242
+    second: Character 1 revmp_20
+  - first:
+      213: 5125691468824541934
+    second: Character 1 revmp_21
+  - first:
+      213: -908396152998771600
+    second: Character 1 revmp_22
+  - first:
+      213: -6685722026008470630
+    second: Character 1 revmp_23
+  - first:
+      213: -2027295967685825988
+    second: Character 1 revmp_24
+  - first:
+      213: -1360987780948718825
+    second: Character 1 revmp_25
+  - first:
+      213: 6202496497141531301
+    second: Character 1 revmp_26
+  - first:
+      213: 699938726452785125
+    second: Character 1 revmp_27
+  - first:
+      213: -3133858358919574223
+    second: Character 1 revmp_28
+  - first:
+      213: 42692459549082260
+    second: Character 1 revmp_29
+  - first:
+      213: -3855284705368169334
+    second: Character 1 revmp_30
+  - first:
+      213: -4126882285454411692
+    second: Character 1 revmp_31
+  - first:
+      213: -5042072390785377263
+    second: Character 1 revmp_32
+  - first:
+      213: -5667292843117551039
+    second: Character 1 revmp_33
+  - first:
+      213: 3624646668643267144
+    second: Character 1 revmp_34
+  - first:
+      213: -4506716301923468448
+    second: Character 1 revmp_35
+  - first:
+      213: 6678271005486236726
+    second: Character 1 revmp_36
+  - first:
+      213: 5817215445369472689
+    second: Character 1 revmp_37
+  - first:
+      213: -1630377120752523160
+    second: Character 1 revmp_38
+  - first:
+      213: 2648483319340650284
+    second: Character 1 revmp_39
+  - first:
+      213: -8221754669796290137
+    second: Character 1 revmp_40
+  - first:
+      213: 7994993094517236560
+    second: Character 1 revmp_41
+  - first:
+      213: -3548278240428740069
+    second: Character 1 revmp_42
+  - first:
+      213: -1037901885759445130
+    second: Character 1 revmp_43
+  - first:
+      213: -8846563954755785401
+    second: Character 1 revmp_44
+  - first:
+      213: 997374229482440012
+    second: Character 1 revmp_45
+  - first:
+      213: -31907571863632068
+    second: Character 1 revmp_46
+  - first:
+      213: 101471935473672904
+    second: Character 1 revmp_47
+  - first:
+      213: 4989071729769971558
+    second: Character 1 revmp_48
+  - first:
+      213: -2180581159116662420
+    second: Character 1 revmp_49
+  - first:
+      213: 4034422849856488715
+    second: Character 1 revmp_50
+  - first:
+      213: 6380857975319167581
+    second: Character 1 revmp_51
+  - first:
+      213: -1305916156716679420
+    second: Character 1 revmp_52
+  - first:
+      213: 5562103000489860240
+    second: Character 1 revmp_53
+  - first:
+      213: -1497756749216844381
+    second: Character 1 revmp_54
+  - first:
+      213: -3707858120681688827
+    second: Character 1 revmp_55
+  - first:
+      213: -5534721238590009949
+    second: Character 1 revmp_56
+  - first:
+      213: -2904656968175105725
+    second: Character 1 revmp_57
+  - first:
+      213: -4834154669471351870
+    second: Character 1 revmp_58
+  - first:
+      213: -3278770297940833417
+    second: Character 1 revmp_59
+  - first:
+      213: -7213979277980204544
+    second: Character 1 revmp_60
+  - first:
+      213: -3704303586913335751
+    second: Character 1 revmp_61
+  - first:
+      213: -2988416996657165147
+    second: Character 1 revmp_62
+  - first:
+      213: -1701694239737230713
+    second: Character 1 revmp_63
+  - first:
+      213: 2598097921156636987
+    second: Character 1 revmp_64
+  - first:
+      213: -3513783408887594024
+    second: Character 1 revmp_65
+  - first:
+      213: 7182660021913835508
+    second: Character 1 revmp_66
+  - first:
+      213: -778764977274039258
+    second: Character 1 revmp_67
+  - first:
+      213: 8143142475424773154
+    second: Character 1 revmp_68
+  - first:
+      213: 3366795206410733292
+    second: Character 1 revmp_69
+  - first:
+      213: -50749647980088665
+    second: Character 1 revmp_70
+  - first:
+      213: -309261430179577495
+    second: Character 1 revmp_71
+  - first:
+      213: 824217529147499710
+    second: Character 1 revmp_72
+  - first:
+      213: 897342780982816829
+    second: Character 1 revmp_73
+  - first:
+      213: 5054268134354321916
+    second: Character 1 revmp_74
+  - first:
+      213: 8645005523942768137
+    second: Character 1 revmp_75
+  - first:
+      213: 1059865403572407729
+    second: Character 1 revmp_76
+  - first:
+      213: 113961003511383062
+    second: Character 1 revmp_77
+  - first:
+      213: 2045961941326902285
+    second: Character 1 revmp_78
+  - first:
+      213: 9176368985941252793
+    second: Character 1 revmp_79
+  - first:
+      213: 7505520859921480407
+    second: Character 1 revmp_80
+  - first:
+      213: -2775193412485100624
+    second: Character 1 revmp_81
+  - first:
+      213: 2861791547237950477
+    second: Character 1 revmp_82
+  - first:
+      213: 2436699242787402070
+    second: Character 1 revmp_83
+  - first:
+      213: 2067622304397737449
+    second: Character 1 revmp_84
+  - first:
+      213: -2876088042408721339
+    second: Character 1 revmp_85
+  - first:
+      213: -8052798547773078262
+    second: Character 1 revmp_86
+  - first:
+      213: -6585514162664177932
+    second: Character 1 revmp_87
+  - first:
+      213: 54833073931587810
+    second: Character 1 revmp_88
+  - first:
+      213: -7508884600128244186
+    second: Character 1 revmp_89
+  - first:
+      213: -1962231818453137739
+    second: Character 1 revmp_90
+  - first:
+      213: -6918514903663808368
+    second: Character 1 revmp_91
+  - first:
+      213: 2760174963376938962
+    second: Character 1 revmp_92
+  - first:
+      213: -4700424783690007623
+    second: Character 1 revmp_93
+  - first:
+      213: 2839547041669244821
+    second: Character 1 revmp_94
+  - first:
+      213: 1446399764055280118
+    second: Character 1 revmp_95
+  - first:
+      213: 6181707996149486941
+    second: Character 1 revmp_96
+  - first:
+      213: 3493996126736156009
+    second: Character 1 revmp_97
+  - first:
+      213: 8140989652576322039
+    second: Character 1 revmp_98
+  - first:
+      213: -7652319741065524504
+    second: Character 1 revmp_99
+  - first:
+      213: -2295995537007749651
+    second: Character 1 revmp_100
+  - first:
+      213: 1404717244628295424
+    second: Character 1 revmp_101
+  - first:
+      213: 2516032318710352565
+    second: Character 1 revmp_102
+  - first:
+      213: -3963334089907979138
+    second: Character 1 revmp_103
+  - first:
+      213: -4398734408778788752
+    second: Character 1 revmp_104
+  - first:
+      213: 285650257588057338
+    second: Character 1 revmp_105
+  - first:
+      213: -6376219455441899368
+    second: Character 1 revmp_106
+  - first:
+      213: 8543340205045295547
+    second: Character 1 revmp_107
+  - first:
+      213: -4722317639292433872
+    second: Character 1 revmp_108
+  - first:
+      213: -7518007447928182856
+    second: Character 1 revmp_109
+  - first:
+      213: -5883876157901707130
+    second: Character 1 revmp_110
+  - first:
+      213: 7251734404594560414
+    second: Character 1 revmp_111
+  - first:
+      213: 8020510011597927359
+    second: Character 1 revmp_112
+  - first:
+      213: 2574228645701536362
+    second: Character 1 revmp_113
+  - first:
+      213: -8905501048679928284
+    second: Character 1 revmp_114
+  - first:
+      213: -2249017035663701633
+    second: Character 1 revmp_115
+  - first:
+      213: 5156611056126086816
+    second: Character 1 revmp_116
+  - first:
+      213: -2033787924568426789
+    second: Character 1 revmp_117
+  - first:
+      213: 4453112949237990725
+    second: Character 1 revmp_118
+  - first:
+      213: -8595568716712479036
+    second: Character 1 revmp_119
+  - first:
+      213: 5905292601956833739
+    second: Character 1 revmp_120
+  - first:
+      213: -2481982087665245163
+    second: Character 1 revmp_121
+  - first:
+      213: 5774092650164607686
+    second: Character 1 revmp_122
+  - first:
+      213: -8506437908663211682
+    second: Character 1 revmp_123
+  - first:
+      213: 7193185559603127069
+    second: Character 1 revmp_124
+  - first:
+      213: 8098131027168461689
+    second: Character 1 revmp_125
+  - first:
+      213: -3542208244930367080
+    second: Character 1 revmp_126
+  - first:
+      213: 4018784096860157100
+    second: Character 1 revmp_127
+  - first:
+      213: 5451381226445744167
+    second: Character 1 revmp_128
+  - first:
+      213: 8982448069639411642
+    second: Character 1 revmp_129
+  - first:
+      213: -272875672610131265
+    second: Character 1 revmp_130
+  - first:
+      213: -756129065113558953
+    second: Character 1 revmp_131
+  - first:
+      213: 687570027724051149
+    second: Character 1 revmp_132
+  - first:
+      213: 3591314425213954178
+    second: Character 1 revmp_133
+  - first:
+      213: -9175582125120283024
+    second: Character 1 revmp_134
+  - first:
+      213: 3635273529139557112
+    second: Character 1 revmp_135
+  - first:
+      213: -4237569891438753362
+    second: Character 1 revmp_136
+  - first:
+      213: 2888803674775154574
+    second: Character 1 revmp_137
+  - first:
+      213: -5906666269637920742
+    second: Character 1 revmp_138
+  - first:
+      213: -8092638554632858634
+    second: Character 1 revmp_139
+  - first:
+      213: -1906547835572849982
+    second: Character 1 revmp_140
+  - first:
+      213: -7507586368300334921
+    second: Character 1 revmp_141
+  - first:
+      213: -8754609888440757251
+    second: Character 1 revmp_142
+  - first:
+      213: 4870066993588633816
+    second: Character 1 revmp_143
+  - first:
+      213: -995485197645859754
+    second: Character 1 revmp_144
+  - first:
+      213: -3104989410017475131
+    second: Character 1 revmp_145
+  - first:
+      213: -6156508202003670533
+    second: Character 1 revmp_146
+  - first:
+      213: -5205732484476593300
+    second: Character 1 revmp_147
+  - first:
+      213: 7719879684639441043
+    second: Character 1 revmp_148
+  - first:
+      213: -6664658036921752847
+    second: Character 1 revmp_149
+  - first:
+      213: 7986918713057786959
+    second: Character 1 revmp_150
+  - first:
+      213: -6999740590386328153
+    second: Character 1 revmp_151
+  - first:
+      213: -5731950212791635491
+    second: Character 1 revmp_152
+  - first:
+      213: 4870453753398933338
+    second: Character 1 revmp_153
+  - first:
+      213: -1043548229390089350
+    second: Character 1 revmp_154
+  - first:
+      213: -7207545840565473675
+    second: Character 1 revmp_155
+  - first:
+      213: -1999737207845840277
+    second: Character 1 revmp_156
+  - first:
+      213: -3693644144932842278
+    second: Character 1 revmp_157
+  - first:
+      213: -1955523436981096121
+    second: Character 1 revmp_158
+  - first:
+      213: 5034880336878896787
+    second: Character 1 revmp_159
+  - first:
+      213: 1146929300164324204
+    second: Character 1 revmp_160
+  - first:
+      213: 7683458009107273699
+    second: Character 1 revmp_161
+  - first:
+      213: 9010451373855200640
+    second: Character 1 revmp_162
+  - first:
+      213: -2729168826460893331
+    second: Character 1 revmp_163
+  - first:
+      213: 2429237776542904443
+    second: Character 1 revmp_164
+  - first:
+      213: -6396793634005808496
+    second: Character 1 revmp_165
+  - first:
+      213: -7002573344963771810
+    second: Character 1 revmp_166
+  - first:
+      213: 2622776987699755511
+    second: Character 1 revmp_167
+  - first:
+      213: 169249362413249927
+    second: Character 1 revmp_168
+  - first:
+      213: -1157123829517413611
+    second: Character 1 revmp_169
+  - first:
+      213: 9059963512946437059
+    second: Character 1 revmp_170
+  - first:
+      213: -3038114455694034050
+    second: Character 1 revmp_171
+  - first:
+      213: -68814455893988947
+    second: Character 1 revmp_172
+  - first:
+      213: 6648635237686818116
+    second: Character 1 revmp_173
+  - first:
+      213: -5454048472119393564
+    second: Character 1 revmp_174
+  - first:
+      213: -6703315830177838410
+    second: Character 1 revmp_175
+  - first:
+      213: 4683719402929054985
+    second: Character 1 revmp_176
+  - first:
+      213: 8245967030569990586
+    second: Character 1 revmp_177
+  - first:
+      213: 3356400975992049234
+    second: Character 1 revmp_178
+  - first:
+      213: -2972265294653902852
+    second: Character 1 revmp_179
+  - first:
+      213: 1574915119346564673
+    second: Character 1 revmp_180
+  - first:
+      213: -2695798562901189236
+    second: Character 1 revmp_181
+  - first:
+      213: -4891952813749040017
+    second: Character 1 revmp_182
+  - first:
+      213: 4681786727444052438
+    second: Character 1 revmp_183
+  - first:
+      213: 6267350346199111167
+    second: Character 1 revmp_184
+  - first:
+      213: 1733097659807809178
+    second: Character 1 revmp_185
+  - first:
+      213: -748021323980930800
+    second: Character 1 revmp_186
+  - first:
+      213: -3636923786139921857
+    second: Character 1 revmp_187
+  - first:
+      213: -3003849856704615952
+    second: Character 1 revmp_188
+  - first:
+      213: 325278901201729286
+    second: Character 1 revmp_189
+  - first:
+      213: -1308522922444856277
+    second: Character 1 revmp_190
+  - first:
+      213: 1567605765305414900
+    second: Character 1 revmp_191
+  - first:
+      213: -4980329981590488511
+    second: Character 1 revmp_192
+  - first:
+      213: 7961147209957500609
+    second: Character 1 revmp_193
+  - first:
+      213: -7214076306383821801
+    second: Character 1 revmp_194
+  - first:
+      213: 1079089889704816508
+    second: Character 1 revmp_195
+  - first:
+      213: -8104042284487865153
+    second: Character 1 revmp_196
+  - first:
+      213: 2220770611158675286
+    second: Character 1 revmp_197
+  - first:
+      213: -4360109530687180949
+    second: Character 1 revmp_198
+  - first:
+      213: -8195265222619459805
+    second: Character 1 revmp_199
+  - first:
+      213: 7032877722244985496
+    second: Character 1 revmp_200
+  - first:
+      213: -3689312255499194916
+    second: Character 1 revmp_201
+  - first:
+      213: -1631676189987468065
+    second: Character 1 revmp_202
+  - first:
+      213: 1721385603294592651
+    second: Character 1 revmp_203
+  - first:
+      213: 5222219855070720774
+    second: Character 1 revmp_204
+  - first:
+      213: 6887790987662444276
+    second: Character 1 revmp_205
+  - first:
+      213: 4466939975214314572
+    second: Character 1 revmp_206
+  - first:
+      213: -149695220893369639
+    second: Character 1 revmp_207
+  - first:
+      213: -9031344876291260546
+    second: Character 1 revmp_208
+  - first:
+      213: -6127416343831941995
+    second: Character 1 revmp_209
+  - first:
+      213: 4023490695661925762
+    second: Character 1 revmp_210
+  - first:
+      213: 2710482835851467036
+    second: Character 1 revmp_211
+  - first:
+      213: -8016651934763326904
+    second: Character 1 revmp_212
+  - first:
+      213: -5491282901540675086
+    second: Character 1 revmp_213
+  - first:
+      213: -8444174201793297936
+    second: Character 1 revmp_214
+  - first:
+      213: -2975794259077813031
+    second: Character 1 revmp_215
+  - first:
+      213: 7464328918423345249
+    second: Character 1 revmp_216
+  - first:
+      213: 2159965394207533709
+    second: Character 1 revmp_217
+  - first:
+      213: -1319464666413432634
+    second: Character 1 revmp_218
+  - first:
+      213: 7805766163604112449
+    second: Character 1 revmp_219
+  - first:
+      213: 2622369525304686762
+    second: Character 1 revmp_220
+  - first:
+      213: -5365055746463574195
+    second: Character 1 revmp_221
+  - first:
+      213: 6050928910317232696
+    second: Character 1 revmp_222
+  - first:
+      213: 4604823122400894026
+    second: Character 1 revmp_223
+  - first:
+      213: 3422898120189964712
+    second: Character 1 revmp_224
+  - first:
+      213: -5598593209285676555
+    second: Character 1 revmp_225
+  - first:
+      213: -7656938824834727597
+    second: Character 1 revmp_226
+  - first:
+      213: -5089662820229211032
+    second: Character 1 revmp_227
+  - first:
+      213: -7438474282806080570
+    second: Character 1 revmp_228
+  - first:
+      213: -6404855794590700097
+    second: Character 1 revmp_229
+  - first:
+      213: 6967890506969548526
+    second: Character 1 revmp_230
+  - first:
+      213: -5650877939860590981
+    second: Character 1 revmp_231
+  - first:
+      213: 6379940111894513416
+    second: Character 1 revmp_232
+  - first:
+      213: -8631872611589270165
+    second: Character 1 revmp_233
+  - first:
+      213: 4581353809074800463
+    second: Character 1 revmp_234
+  - first:
+      213: 6638409209704310203
+    second: Character 1 revmp_235
+  - first:
+      213: 4431933025444679237
+    second: Character 1 revmp_236
+  - first:
+      213: -4936204832390291080
+    second: Character 1 revmp_237
+  - first:
+      213: -7803370292199773805
+    second: Character 1 revmp_238
+  - first:
+      213: 5523950136515007154
+    second: Character 1 revmp_239
+  - first:
+      213: -7286675440301194817
+    second: Character 1 revmp_240
+  - first:
+      213: 8115185886251196675
+    second: Character 1 revmp_241
+  - first:
+      213: 4484603827416760988
+    second: Character 1 revmp_242
+  - first:
+      213: 8477494305363959672
+    second: Character 1 revmp_243
+  - first:
+      213: -1519425384531958264
+    second: Character 1 revmp_244
+  - first:
+      213: 7208925084082214144
+    second: Character 1 revmp_245
+  - first:
+      213: 1277711541044668362
+    second: Character 1 revmp_246
+  - first:
+      213: 2667613107240375524
+    second: Character 1 revmp_247
+  - first:
+      213: -8256260863822978813
+    second: Character 1 revmp_248
+  - first:
+      213: 1145127831911955712
+    second: Character 1 revmp_249
+  - first:
+      213: 2718286664498258681
+    second: Character 1 revmp_250
+  - first:
+      213: -3841595884005068833
+    second: Character 1 revmp_251
+  - first:
+      213: -7425706310210443736
+    second: Character 1 revmp_252
+  - first:
+      213: -6949880826763554670
+    second: Character 1 revmp_253
+  - first:
+      213: -8393118427259204454
+    second: Character 1 revmp_254
+  - first:
+      213: -8537557333527994138
+    second: Character 1 revmp_255
+  - first:
+      213: -6097622268529898627
+    second: Character 1 revmp_256
+  - first:
+      213: -5809541827623887793
+    second: Character 1 revmp_257
+  - first:
+      213: 402916321649618423
+    second: Character 1 revmp_258
+  - first:
+      213: -3870273695218601030
+    second: Character 1 revmp_259
+  - first:
+      213: 1363682134818006112
+    second: Character 1 revmp_260
+  - first:
+      213: -8511951251102335853
+    second: Character 1 revmp_261
+  - first:
+      213: 6194578390751738614
+    second: Character 1 revmp_262
+  - first:
+      213: -5768463664074354440
+    second: Character 1 revmp_263
+  - first:
+      213: -9034836187414228317
+    second: Character 1 revmp_264
+  - first:
+      213: 4499570552569003307
+    second: Character 1 revmp_265
+  - first:
+      213: 7594860764594030684
+    second: Character 1 revmp_266
+  - first:
+      213: 2505524924193964647
+    second: Character 1 revmp_267
+  - first:
+      213: 350189156549275383
+    second: Character 1 revmp_268
+  - first:
+      213: -8694828059514175226
+    second: Character 1 revmp_269
+  - first:
+      213: 2311752510074518554
+    second: Character 1 revmp_270
+  - first:
+      213: -3005196421911089039
+    second: Character 1 revmp_271
+  - first:
+      213: 6518181557982819475
+    second: Character 1 revmp_272
+  - first:
+      213: 3201902459075389274
+    second: Character 1 revmp_273
+  - first:
+      213: -5317446203749007788
+    second: Character 1 revmp_274
+  - first:
+      213: 7423471371464870784
+    second: Character 1 revmp_275
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character 1 revmp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6680f07344762faf0800000000000000
+      internalID: -364115077184419738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33106985bae160da0800000000000000
+      internalID: -5979057734013288141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d4847d4019a9510800000000000000
+      internalID: 1556716071187664163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89cbb7e85f605c60800000000000000
+      internalID: 7804860581868718475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9fdcedfddde2480800000000000000
+      internalID: -8921949858188887565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44910f9dea1af44b0800000000000000
+      internalID: -5453962851369608892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62091c26fa4eb0a60800000000000000
+      internalID: 7641452634691440678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b28b63298c65920800000000000000
+      internalID: 2978788733860981554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29ac2d34d6ceb90800000000000000
+      internalID: -7211268765260279044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e0a902d788b700800000000000000
+      internalID: 556343890154677201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446e3a25d3720bb80800000000000000
+      internalID: -8381155762203531708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5958fbe6656e82e20800000000000000
+      internalID: 3326161583712732565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc6d136fe756a8c0800000000000000
+      internalID: -3988403734318322484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7541c66366e3ea0800000000000000
+      internalID: -5891158878626490440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78bc65188c41580800000000000000
+      internalID: -8857234109298407426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165a9109c4cd86410800000000000000
+      internalID: 1470667499729692001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0348a0f3321fe4c0800000000000000
+      internalID: -4256163108551638258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b41b8f1ddd13760800000000000000
+      internalID: 7435968353655671696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afd22a1ca550db70800000000000000
+      internalID: 8921725059482181536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5ad808bc2332160800000000000000
+      internalID: 6999494095480399273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb036cceff00d50800000000000000
+      internalID: 6701637637929745242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea798bdb3d122740800000000000000
+      internalID: 5125691468824541934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744d21038ab463f0800000000000000
+      internalID: -908396152998771600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b92c46d3b8733a0800000000000000
+      internalID: -6685722026008470630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2187fe099dd3e0800000000000000
+      internalID: -2027295967685825988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b87e4f2dccc1de0800000000000000
+      internalID: -1360987780948718825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2c9b0b3b1b31650800000000000000
+      internalID: 6202496497141531301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efe1c2309ea6b900800000000000000
+      internalID: 699938726452785125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dc53c2d6c4284d0800000000000000
+      internalID: -3133858358919574223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c206d09ca79000800000000000000
+      internalID: 42692459549082260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84a8849cf64f7ac0800000000000000
+      internalID: -3855284705368169334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45833a13d6e5ab6c0800000000000000
+      internalID: -4126882285454411692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cde67efd5f60ab0800000000000000
+      internalID: -5042072390785377263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1426ddf8f2bb951b0800000000000000
+      internalID: -5667292843117551039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842f8c0e0f45d4230800000000000000
+      internalID: 3624646668643267144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bb368a66de471c0800000000000000
+      internalID: -4506716301923468448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6344cc3b81cfdac50800000000000000
+      internalID: 6678271005486236726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6c92b60a6eab050800000000000000
+      internalID: 5817215445369472689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682f9395acbf59e0800000000000000
+      internalID: -1630377120752523160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fc8d2fb8d41c420800000000000000
+      internalID: 2648483319340650284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1126440b576ed80800000000000000
+      internalID: -8221754669796290137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053a6643cdbe3fe60800000000000000
+      internalID: 7994993094517236560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b123ffa6dbbf1cec0800000000000000
+      internalID: -3548278240428740069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677a993ebb1a891f0800000000000000
+      internalID: -1037901885759445130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74da10a44f0ba3580800000000000000
+      internalID: -8846563954755785401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c450e60d39267dd00800000000000000
+      internalID: 997374229482440012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c374c618b34ae8ff0800000000000000
+      internalID: -31907571863632068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2649c0030886100800000000000000
+      internalID: 101471935473672904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ff1e31e4ebc3540800000000000000
+      internalID: 4989071729769971558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6911fe2df40db1e0800000000000000
+      internalID: -2180581159116662420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b054a67e4362df730800000000000000
+      internalID: 4034422849856488715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d520e15758c5d8850800000000000000
+      internalID: 6380857975319167581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f757cac2470ede0800000000000000
+      internalID: -1305916156716679420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c155ca53f803d40800000000000000
+      internalID: 5562103000489860240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_54
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a57cfa0c26e63be0800000000000000
+      internalID: -1497756749216844381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501783f2faa0b8cc0800000000000000
+      internalID: -3707858120681688827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad48039b58b033b0800000000000000
+      internalID: -5534721238590009949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3494f8180e590b7d0800000000000000
+      internalID: -2904656968175105725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb3dd8c0f1a9ecb0800000000000000
+      internalID: -4834154669471351870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_59
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b822329c77f72d0800000000000000
+      internalID: -3278770297940833417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_60
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00206f6611cc2eb90800000000000000
+      internalID: -7213979277980204544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93643d1938ba79cc0800000000000000
+      internalID: -3704303586913335751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac828923920786d0800000000000000
+      internalID: -2988416996657165147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a422cda1e5268e0800000000000000
+      internalID: -1701694239737230713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31e8324b4c4e0420800000000000000
+      internalID: 2598097921156636987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3089f3b988c3fc0800000000000000
+      internalID: -3513783408887594024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7d29c0c3feda360800000000000000
+      internalID: 7182660021913835508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624d01611654135f0800000000000000
+      internalID: -778764977274039258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_68
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b61befe0420170800000000000000
+      internalID: 8143142475424773154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_69
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce68995f66249be20800000000000000
+      internalID: 3366795206410733292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_70
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2bbabc673bb4ff0800000000000000
+      internalID: -50749647980088665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_71
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961ca672e5845bbf0800000000000000
+      internalID: -309261430179577495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 revmp_72
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ac72d975307b00800000000000000
+      internalID: 824217529147499710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

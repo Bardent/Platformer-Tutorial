@@ -4,41 +4,30 @@ using UnityEngine;
 
 public class PlayerMoveState : PlayerGroundedState
 {
-    public PlayerMoveState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerMoveState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animationBoolName) : base(player, stateMachine, playerData, animationBoolName)
     {
-    }
-
-    public override void DoChecks()
-    {
-        base.DoChecks();
-    }
-
-    public override void Enter()
-    {
-        base.Enter();
-    }
-
-    public override void Exit()
-    {
-        base.Exit();
     }
 
     public override void LogicUpdate()
     {
         base.LogicUpdate();
 
-        player.CheckIfShouldFlip(xInput);
-
-        player.SetVelocityX(playerData.movementVelocity * xInput);
-
-        if(xInput == 0 && !isExitingState)
+        if (!isExitingState)
         {
-            stateMachine.ChangeState(player.IdleState);
-        }
-    }
+            player.CheckFlipPlayer(xInput);
 
-    public override void PhysicsUpdate()
-    {
-        base.PhysicsUpdate();
+            player.SetVelocityX(playerData.movementSpeed * xInput);
+
+            if (xInput == 0)
+            {
+                stateMachine.ChangeState(player.IdleState);
+            }
+            else if(yInput == -1)
+            {
+                stateMachine.ChangeState(player.CrouchMoveState);
+            }
+        }
+        
+
     }
 }

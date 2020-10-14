@@ -2,62 +2,56 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
+using UnityEngine.InputSystem.XInput;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    private PlayerInput playerInput;
-    private Camera cam;
-
     public Vector2 RawMovementInput { get; private set; }
-    public Vector2 RawDashDirectionInput { get; private set; }
-    public Vector2Int DashDirectionInput { get; private set; }
-    public int NormInputX { get; private set; }
-    public int NormInputY { get; private set; }
+    public int NormalizedInputX { get; private set; }
+    public int NormalizedInputY { get; private set; }
     public bool JumpInput { get; private set; }
     public bool JumpInputStop { get; private set; }
-    public bool GrabInput { get; private set; }
+    public bool DodgeRollInput { get; private set; }
     public bool DashInput { get; private set; }
     public bool DashInputStop { get; private set; }
+    public bool GrabInput { get; private set; }
+    public bool GrabInputStop { get; private set; }
 
-    [SerializeField]
-    private float inputHoldTime = 0.2f;
-
+    [SerializeField] private float inputHoldTime = 0.2f;
+    
     private float jumpInputStartTime;
+    private float dodgeRollInputStartTime;
     private float dashInputStartTime;
-
-    private void Start()
-    {
-        playerInput = GetComponent<PlayerInput>();
-        cam = Camera.main;
-    }
+    private float grabInputStartTime;
 
     private void Update()
     {
         CheckJumpInputHoldTime();
+        CheckDodgeRollInputHoldTime();
         CheckDashInputHoldTime();
     }
 
-    public void OnMoveInput(InputAction.CallbackContext context)
+    public void OnMove(InputAction.CallbackContext context)
     {
         RawMovementInput = context.ReadValue<Vector2>();
-
         if(Mathf.Abs(RawMovementInput.x) > 0.5f)
         {
-            NormInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
+            NormalizedInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
         }
         else
         {
-            NormInputX = 0;
+            NormalizedInputX = 0;
         }
-        
         if(Mathf.Abs(RawMovementInput.y) > 0.5f)
         {
-            NormInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
+            NormalizedInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
         }
         else
         {
-            NormInputY = 0;
+            NormalizedInputY = 0;
         }
+        
     }
 
     public void OnJumpInput(InputAction.CallbackContext context)
@@ -75,11 +69,35 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
+    public void OnDashInput(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            DashInput = true;
+            DashInputStop = false;
+            dashInputStartTime = Time.time;
+        }
+
+        if (context.canceled)
+        {
+            DashInputStop = true;
+        }
+    }
+
+    public void OnDodgeInput(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            DodgeRollInput = true;
+            dodgeRollInputStartTime = Time.time;
+        }
+    }
+
     public void OnGrabInput(InputAction.CallbackContext context)
     {
         if (context.started)
         {
-            GrabInput = true;
+            GrabInput = true;           
         }
 
         if (context.canceled)
@@ -88,49 +106,34 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
-    public void OnDashInput(InputAction.CallbackContext context)
+    public void CheckJumpInputHoldTime()
     {
-        if (context.started)
+        if (JumpInput && Time.time > jumpInputStartTime + inputHoldTime)
         {
-            DashInput = true;
-            DashInputStop = false;
-            dashInputStartTime = Time.time;
-        }
-        else if (context.canceled)
-        {
-            DashInputStop = true;
+            JumpInput = false;            
         }
     }
 
-    public void OnDashDirectionInput(InputAction.CallbackContext context)
+    public void CheckDodgeRollInputHoldTime()
     {
-        RawDashDirectionInput = context.ReadValue<Vector2>();
-
-        if(playerInput.currentControlScheme == "Keyboard")
+        if (DodgeRollInput && Time.time > dodgeRollInputStartTime + inputHoldTime)
         {
-            RawDashDirectionInput = cam.ScreenToWorldPoint((Vector3)RawDashDirectionInput) - transform.position;
-        }
-
-        DashDirectionInput = Vector2Int.RoundToInt(RawDashDirectionInput.normalized);
-    }
-
-    public void UseJumpInput() => JumpInput = false;
-
-    public void UseDashInput() => DashInput = false;
-
-    private void CheckJumpInputHoldTime()
-    {
-        if(Time.time >= jumpInputStartTime + inputHoldTime)
-        {
-            JumpInput = false;
+            DodgeRollInput = false;
         }
     }
 
-    private void CheckDashInputHoldTime()
+    public void CheckDashInputHoldTime()
     {
-        if(Time.time >= dashInputStartTime + inputHoldTime)
+        if (DashInput && Time.time > dashInputStartTime + inputHoldTime)
         {
             DashInput = false;
         }
-    }
+    }  
+
+    public void UseJumpInput() => JumpInput = false;
+
+    public void UseDodgeRollInput() => DodgeRollInput = false;
+
+    public void UseDashInput() => DashInput = false;
+
 }

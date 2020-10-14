@@ -10,20 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65ca48738a7a0264884c833183f68271, type: 3}
-  m_Name: playerData
+  m_Name: PlayerData
   m_EditorClassIdentifier: 
-  movementVelocity: 10
-  jumpVelocity: 15
+  movementSpeed: 10
   amountOfJumps: 1
+  jumpVelocity: 15
   wallJumpVelocity: 20
   wallJumpTime: 0.4
   wallJumpAngle: {x: 1, y: 2}
   coyoteTime: 0.2
-  variableJumpHeightMultiplier: 0.5
-  wallSlideVelocity: 2
-  wallClimbVelocity: 3
-  startOffset: {x: 0.4, y: 0.9}
-  stopOffset: {x: 0.4, y: 0.75}
+  varialbeJumpHeightMultuplier: 0.5
+  wallSlideVelocity: 1
+  startPosOffset: {x: 0.3, y: 1}
+  endPosOffset: {x: 0.4, y: 1}
+  DodgeRollSpeed: 10
+  DodgeRollInitialSpeed: 20
+  dashVelocity: 30
+  dashTime: 0.2
+  maxDashHoldTime: 1
+  distnaceBetweenImages: 0.5
+  wallClimbSpeed: 3
+  crouchMoveSpeed: 5
+  crouchColliderHeight: 0.8
+  standColliderHeight: 1.6
   groundCheckRadius: 0.3
   wallCheckDistance: 0.5
   whatIsGround:

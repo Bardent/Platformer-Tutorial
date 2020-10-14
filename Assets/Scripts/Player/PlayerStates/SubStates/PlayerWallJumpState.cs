@@ -4,20 +4,32 @@ using UnityEngine;
 
 public class PlayerWallJumpState : PlayerAbilityState
 {
+
+    private bool isTouchingWallFront;
+    private bool isTouchingWallBack;
     private int wallJumpDirection;
 
-    public PlayerWallJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
+    public PlayerWallJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animationBoolName) : base(player, stateMachine, playerData, animationBoolName)
     {
+    }
+
+    public override void DoChecks()
+    {
+        base.DoChecks();
+
+        isTouchingWallFront = player.CheckIfTouchingWall();
+        isTouchingWallBack = player.CheckIfTouchingWallBack();
+
     }
 
     public override void Enter()
     {
-        base.Enter();
-        player.InputHandler.UseJumpInput();
-        player.JumpState.ResetAmountOfJumpsLeft();
-        player.SetVelocity(playerData.wallJumpVelocity, playerData.wallJumpAngle, wallJumpDirection);
-        player.CheckIfShouldFlip(wallJumpDirection);
+        base.Enter();        
+        DetermineWallJumpDirection();
+        player.CheckFlipPlayer(wallJumpDirection);
         player.JumpState.DecreaseAmountOfJumpsLeft();
+        player.SetVelocity(playerData.wallJumpVelocity, playerData.wallJumpAngle, wallJumpDirection);
+        player.DashState.SetCanDash(true);
     }
 
     public override void LogicUpdate()
@@ -31,11 +43,18 @@ public class PlayerWallJumpState : PlayerAbilityState
         {
             isAbilityDone = true;
         }
+
     }
 
-    public void DetermineWallJumpDirection(bool isTouchingWall)
+    private void DetermineWallJumpDirection()
     {
-        if (isTouchingWall)
+        DoChecks();
+
+        if (isTouchingWallBack)
+        {
+            wallJumpDirection = player.FacingDirection;
+        }
+        else if (isTouchingWallFront)
         {
             wallJumpDirection = -player.FacingDirection;
         }
@@ -43,5 +62,10 @@ public class PlayerWallJumpState : PlayerAbilityState
         {
             wallJumpDirection = player.FacingDirection;
         }
+    }
+
+    public void SetWallJumpDirection(int direction)
+    {
+        wallJumpDirection = direction;
     }
 }
