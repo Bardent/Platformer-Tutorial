@@ -22,7 +22,7 @@ public class PlayerAbilityState : PlayerState
     public override void Enter()
     {
         base.Enter();
-
+        
         isAbilityDone = false;
     }
 
