@@ -16,4 +16,24 @@ public class WeaponAnimationToWeapon : MonoBehaviour
         weapon.AnimationFinishTrigger();
     }
 
+    private void AnimationStartMovementTrigger()
+    {
+        weapon.AnimationStartMovementTrigger();
+    }
+
+    private void AnimationStopMovementTrigger()
+    {
+        weapon.AnimationStopMovementTrigger();
+    }
+
+    private void AnimationTurnOffFlipTrigger()
+    {
+        weapon.AnimationTurnOffFlipTrigger();
+    }
+
+    private void AnimationTurnOnFlipTrigger()
+    {
+        weapon.AnimationTurnOnFlipTigger();
+    }
+
 }
