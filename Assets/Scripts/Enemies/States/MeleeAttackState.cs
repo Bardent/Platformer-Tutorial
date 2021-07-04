@@ -23,7 +23,7 @@ public class MeleeAttackState : AttackState
         base.Enter();
 
         attackDetails.damageAmount = stateData.attackDamage;
-        attackDetails.position = entity.aliveGO.transform.position;
+        attackDetails.position = entity.transform.position;
     }
 
     public override void Exit()
