@@ -8,65 +8,29 @@ public class CollisionSenses : CoreComponent
 
     public Transform GroundCheck
     {
-        get
-        {
-            if (groundCheck)            
-                return groundCheck;
-
-            Debug.LogError("No Ground Check on " + core.transform.parent.name);
-            return null;
-            
-        }
+        get => GenericNotImplementedError<Transform>.TryGet(groundCheck, core.transform.parent.name);
         private set => groundCheck = value;
     }
     public Transform WallCheck
     {
-        get
-        {
-            if (wallCheck)
-                return wallCheck;
-
-            Debug.LogError("No Wall Check on " + core.transform.parent.name);
-            return null;
-
-        }
-        private set => wallCheck = value; }
+        get => GenericNotImplementedError<Transform>.TryGet(wallCheck, core.transform.parent.name);
+        private set => wallCheck = value;
+    }
     public Transform LedgeCheckHorizontal
     {
-        get
-        {
-            if (ledgeCheckHorizontal)
-                return ledgeCheckHorizontal;
-
-            Debug.LogError("No Ledge Check Horizontal on " + core.transform.parent.name);
-            return null;
-
-        }
-        private set => ledgeCheckHorizontal = value; }
+        get => GenericNotImplementedError<Transform>.TryGet(ledgeCheckHorizontal, core.transform.parent.name);
+        private set => ledgeCheckHorizontal = value;
+    }
     public Transform LedgeCheckVertical
     {
-        get
-        {
-            if (ledgeCheckVertical)
-                return ledgeCheckVertical;
-
-            Debug.LogError("No Ledge Check Vertical on " + core.transform.parent.name);
-            return null;
-
-        }
-        private set => ledgeCheckVertical = value; }
+        get => GenericNotImplementedError<Transform>.TryGet(ledgeCheckVertical, core.transform.parent.name);
+        private set => ledgeCheckVertical = value;
+    }
     public Transform CeilingCheck
     {
-        get
-        {
-            if (ceilingCheck)
-                return ceilingCheck;
-
-            Debug.LogError("No Ceiling Check on " + core.transform.parent.name);
-            return null;
-
-        }
-        private set => ceilingCheck = value; }
+        get => GenericNotImplementedError<Transform>.TryGet(ceilingCheck, core.transform.parent.name);
+        private set => ceilingCheck = value;
+    }
     public float GroundCheckRadius { get => groundCheckRadius; set => groundCheckRadius = value; }
     public float WallCheckDistance { get => wallCheckDistance; set => wallCheckDistance = value; }
     public LayerMask WhatIsGround { get => whatIsGround; set => whatIsGround = value; }
