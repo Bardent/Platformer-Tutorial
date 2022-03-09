@@ -9,6 +9,15 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
     private bool isKnockbackActive;
     private float knockbackStartTime;
 
+    private Stats Stats { get => stats ?? core.GetCoreComponent(ref stats); }
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
+    private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    private Movement movement;
+
+    private Stats stats;
+    private CollisionSenses collisionSenses;
+    
+
     public override void LogicUpdate()
     {
         CheckKnockback();
@@ -17,23 +26,23 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
     public void Damage(float amount)
     {
         Debug.Log(core.transform.parent.name + " Damaged!");
-        core.Stats.DecreaseHealth(amount);
+        Stats?.DecreaseHealth(amount);
     }
 
     public void Knockback(Vector2 angle, float strength, int direction)
     {
-        core.Movement.SetVelocity(strength, angle, direction);
-        core.Movement.CanSetVelocity = false;
+        Movement?.SetVelocity(strength, angle, direction);
+        Movement.CanSetVelocity = false;
         isKnockbackActive = true;
         knockbackStartTime = Time.time;
     }
 
     private void CheckKnockback()
     {
-        if(isKnockbackActive && core.Movement.CurrentVelocity.y <= 0.01f && (core.CollisionSenses.Ground || Time.time >= knockbackStartTime + maxKnockbackTime))
+        if(isKnockbackActive && Movement.CurrentVelocity.y <= 0.01f && (CollisionSenses.Ground || Time.time >= knockbackStartTime + maxKnockbackTime))
         {
             isKnockbackActive = false;
-            core.Movement.CanSetVelocity = true;
+            Movement.CanSetVelocity = true;
         }
     }
 }

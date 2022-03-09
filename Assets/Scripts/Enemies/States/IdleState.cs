@@ -12,6 +12,11 @@ public class IdleState : State
 
     protected float idleTime;
 
+    private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    private Movement movement;
+
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
+    private CollisionSenses collisionSenses;
     public IdleState(Entity etity, FiniteStateMachine stateMachine, string animBoolName, D_IdleState stateData) : base(etity, stateMachine, animBoolName)
     {
         this.stateData = stateData;
@@ -27,7 +32,7 @@ public class IdleState : State
     {
         base.Enter();
 
-        core.Movement.SetVelocityX(0f);
+        Movement?.SetVelocityX(0f);
         isIdleTimeOver = false;        
         SetRandomIdleTime();
     }
@@ -38,7 +43,7 @@ public class IdleState : State
 
         if (flipAfterIdle)
         {
-            core.Movement.Flip();
+            Movement?.Flip();
         }
     }
 
@@ -46,7 +51,7 @@ public class IdleState : State
     {
         base.LogicUpdate();
 
-        core.Movement.SetVelocityX(0f);
+        Movement?.SetVelocityX(0f);
 
         if (Time.time >= startTime + idleTime)
         {

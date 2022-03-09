@@ -12,6 +12,11 @@ public class PlayerDetectedState : State
     protected bool performCloseRangeAction;
     protected bool isDetectingLedge;
 
+    protected Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    protected Movement movement;
+
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
+    private CollisionSenses collisionSenses;
     public PlayerDetectedState(Entity etity, FiniteStateMachine stateMachine, string animBoolName, D_PlayerDetected stateData) : base(etity, stateMachine, animBoolName)
     {
         this.stateData = stateData;
@@ -23,7 +28,7 @@ public class PlayerDetectedState : State
 
         isPlayerInMinAgroRange = entity.CheckPlayerInMinAgroRange();
         isPlayerInMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
-        isDetectingLedge = core.CollisionSenses.LedgeVertical;
+        isDetectingLedge = CollisionSenses.LedgeVertical;
         performCloseRangeAction = entity.CheckPlayerInCloseRangeAction();
     }
 
@@ -32,7 +37,7 @@ public class PlayerDetectedState : State
         base.Enter();
 
         performLongRangeAction = false;
-        core.Movement.SetVelocityX(0f);     
+        Movement?.SetVelocityX(0f);     
     }
 
     public override void Exit()
@@ -44,7 +49,7 @@ public class PlayerDetectedState : State
     {
         base.LogicUpdate();
 
-        core.Movement.SetVelocityX(0f);
+        Movement?.SetVelocityX(0f);
 
         if (Time.time >= startTime + stateData.longRangeActionTime)
         {

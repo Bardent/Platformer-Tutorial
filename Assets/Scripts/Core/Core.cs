@@ -1,60 +1,46 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Core : MonoBehaviour
 {
-    public Movement Movement
-    {
-        get => GenericNotImplementedError<Movement>.TryGet(movement, transform.parent.name);
-        private set => movement = value;
-    }
-    public CollisionSenses CollisionSenses
-    {
-        get => GenericNotImplementedError<CollisionSenses>.TryGet(collisionSenses, transform.parent.name);
-        private set => collisionSenses = value;
-    }
-    public Combat Combat
-    {
-        get => GenericNotImplementedError<Combat>.TryGet(combat, transform.parent.name);
-        private set => combat = value;
-    }
-
-    public Stats Stats
-    {
-        get => GenericNotImplementedError<Stats>.TryGet(stats, transform.parent.name);
-        private set => stats = value;
-    }
-
-    private Movement movement;
-    private CollisionSenses collisionSenses;
-    private Combat combat;
-    private Stats stats;
-
-    private List<ILogicUpdate> components = new List<ILogicUpdate>();
-
-    private void Awake()
-    {
-        Movement = GetComponentInChildren<Movement>();
-        CollisionSenses = GetComponentInChildren<CollisionSenses>();
-        Combat = GetComponentInChildren<Combat>();
-        stats = GetComponentInChildren<Stats>();
-    }
+    public readonly List<CoreComponent> CoreComponents = new List<CoreComponent>();
 
     public void LogicUpdate()
     {
-        foreach (ILogicUpdate component in components)
+        foreach (CoreComponent component in CoreComponents)
         {
             component.LogicUpdate();
         }
     }
 
-    public void AddComponent(ILogicUpdate component)
+    public T GetCoreComponent<T>() where T:CoreComponent
     {
-        if (!components.Contains(component))
+        var comp = CoreComponents
+            .OfType<T>()
+            .FirstOrDefault();
+
+        if (comp == null)
         {
-            components.Add(component);
+            Debug.LogWarning($"{typeof(T)} not found on {transform.parent.name}");
         }
+
+        return comp;
     }
 
+    public T GetCoreComponent<T>(ref T value) where T:CoreComponent
+    {
+        value = GetCoreComponent<T>();
+        return value;
+    }
+
+    public void AddComponent(CoreComponent component)
+    { 
+        if (!CoreComponents.Contains(component))
+        {
+            CoreComponents.Add(component);
+        }
+    }
 }
