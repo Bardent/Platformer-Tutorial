@@ -2,66 +2,60 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeAttackState : AttackState
-{
-    protected D_MeleeAttack stateData;    
+public class MeleeAttackState : AttackState {
+	private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+	private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
 
-    public MeleeAttackState(Entity etity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_MeleeAttack stateData) : base(etity, stateMachine, animBoolName, attackPosition)
-    {
-        this.stateData = stateData;
-    }
+	private Movement movement;
+	private CollisionSenses collisionSenses;
 
-    public override void DoChecks()
-    {
-        base.DoChecks();
-    }
+	protected D_MeleeAttack stateData;
 
-    public override void Enter()
-    {
-        base.Enter();
-    }
+	public MeleeAttackState(Entity etity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_MeleeAttack stateData) : base(etity, stateMachine, animBoolName, attackPosition) {
+		this.stateData = stateData;
+	}
 
-    public override void Exit()
-    {
-        base.Exit();
-    }
+	public override void DoChecks() {
+		base.DoChecks();
+	}
 
-    public override void FinishAttack()
-    {
-        base.FinishAttack();
-    }
+	public override void Enter() {
+		base.Enter();
+	}
 
-    public override void LogicUpdate()
-    {
-        base.LogicUpdate();
-    }
+	public override void Exit() {
+		base.Exit();
+	}
 
-    public override void PhysicsUpdate()
-    {
-        base.PhysicsUpdate();
-    }
+	public override void FinishAttack() {
+		base.FinishAttack();
+	}
 
-    public override void TriggerAttack()
-    {
-        base.TriggerAttack();
+	public override void LogicUpdate() {
+		base.LogicUpdate();
+	}
 
-        Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackPosition.position, stateData.attackRadius, stateData.whatIsPlayer);
+	public override void PhysicsUpdate() {
+		base.PhysicsUpdate();
+	}
 
-        foreach (Collider2D collider in detectedObjects)
-        {
-            IDamageable damageable = collider.GetComponent<IDamageable>();
+	public override void TriggerAttack() {
+		base.TriggerAttack();
 
-            if(damageable != null)
-            {
-                damageable.Damage(stateData.attackDamage);
-            }
+		Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(attackPosition.position, stateData.attackRadius, stateData.whatIsPlayer);
 
-            IKnockbackable knockbackable = collider.GetComponent<IKnockbackable>();
+		foreach (Collider2D collider in detectedObjects) {
+			IDamageable damageable = collider.GetComponent<IDamageable>();
 
-            if(knockbackable != null)
-            {
-                knockbackable.Knockback(stateData.knockbackAngle, stateData.knockbackStrength, core.Movement.FacingDirection);
-            }
-        }
-    }
+			if (damageable != null) {
+				damageable.Damage(stateData.attackDamage);
+			}
+
+			IKnockbackable knockbackable = collider.GetComponent<IKnockbackable>();
+
+			if (knockbackable != null) {
+				knockbackable.Knockback(stateData.knockbackAngle, stateData.knockbackStrength, Movement.FacingDirection);
+			}
+		}
+	}
 }

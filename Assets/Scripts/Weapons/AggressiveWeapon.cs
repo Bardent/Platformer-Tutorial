@@ -3,82 +3,72 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class AggressiveWeapon : Weapon
-{
-    protected SO_AggressiveWeaponData aggressiveWeaponData;
+public class AggressiveWeapon : Weapon {
 
-    private List<IDamageable> detectedDamageables = new List<IDamageable>();
-    private List<IKnockbackable> detectedKnockbackables = new List<IKnockbackable>();
+	private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
 
-    protected override void Awake()
-    {
-        base.Awake();
+	private Movement movement;
 
-        if(weaponData.GetType() == typeof(SO_AggressiveWeaponData))
-        {
-            aggressiveWeaponData = (SO_AggressiveWeaponData)weaponData;
-        }
-        else
-        {
-            Debug.LogError("Wrong data for the weapon");
-        }
-    }
+	protected SO_AggressiveWeaponData aggressiveWeaponData;
 
-    public override void AnimationActionTrigger()
-    {
-        base.AnimationActionTrigger();
+	private List<IDamageable> detectedDamageables = new List<IDamageable>();
+	private List<IKnockbackable> detectedKnockbackables = new List<IKnockbackable>();
 
-        CheckMeleeAttack();
-    }
+	protected override void Awake() {
+		base.Awake();
 
-    private void CheckMeleeAttack()
-    {
-        WeaponAttackDetails details = aggressiveWeaponData.AttackDetails[attackCounter];
+		if (weaponData.GetType() == typeof(SO_AggressiveWeaponData)) {
+			aggressiveWeaponData = (SO_AggressiveWeaponData)weaponData;
+		} else {
+			Debug.LogError("Wrong data for the weapon");
+		}
+	}
 
-        foreach (IDamageable item in detectedDamageables.ToList())
-        {
-            item.Damage(details.damageAmount);
-        }
+	public override void AnimationActionTrigger() {
+		base.AnimationActionTrigger();
 
-        foreach (IKnockbackable item in detectedKnockbackables.ToList())
-        {
-            item.Knockback(details.knockbackAngle, details.knockbackStrength, core.Movement.FacingDirection);
-        }
-    }
+		CheckMeleeAttack();
+	}
 
-    public void AddToDetected(Collider2D collision)
-    {
+	private void CheckMeleeAttack() {
+		WeaponAttackDetails details = aggressiveWeaponData.AttackDetails[attackCounter];
 
-        IDamageable damageable = collision.GetComponent<IDamageable>();
+		foreach (IDamageable item in detectedDamageables.ToList()) {
+			item.Damage(details.damageAmount);
+		}
 
-        if(damageable != null)
-        {
-            detectedDamageables.Add(damageable);
-        }
+		foreach (IKnockbackable item in detectedKnockbackables.ToList()) {
+			item.Knockback(details.knockbackAngle, details.knockbackStrength, Movement.FacingDirection);
+		}
+	}
 
-        IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
+	public void AddToDetected(Collider2D collision) {
 
-        if(knockbackable != null)
-        {
-            detectedKnockbackables.Add(knockbackable);
-        }
-    }
+		IDamageable damageable = collision.GetComponent<IDamageable>();
 
-    public void RemoveFromDetected(Collider2D collision)
-    {
-        IDamageable damageable = collision.GetComponent<IDamageable>();
+		if (damageable != null) {
+			detectedDamageables.Add(damageable);
+		}
 
-        if (damageable != null)
-        {
-            detectedDamageables.Remove(damageable);
-        }
+		IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
 
-        IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
+		if (knockbackable != null) {
+			detectedKnockbackables.Add(knockbackable);
+		}
+	}
 
-        if (knockbackable != null)
-        {
-            detectedKnockbackables.Remove(knockbackable);
-        }
-    }
-   
+	public void RemoveFromDetected(Collider2D collision) {
+		IDamageable damageable = collision.GetComponent<IDamageable>();
+
+		if (damageable != null) {
+			detectedDamageables.Remove(damageable);
+		}
+
+		IKnockbackable knockbackable = collision.GetComponent<IKnockbackable>();
+
+		if (knockbackable != null) {
+			detectedKnockbackables.Remove(knockbackable);
+		}
+	}
+
 }
