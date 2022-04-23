@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CoreComponent : MonoBehaviour, ILogicUpdate
 {
-    protected Core core;
+  protected Core core;
 
-    protected virtual void Awake()
-    {
-        core = transform.parent.GetComponent<Core>();
+  public virtual void Init(Core core){
+    this.core = core;
+  }
 
-        if (core == null) { Debug.LogError("There is no Core on the parent"); }
-        core.AddComponent(this);
-    }
+  protected virtual void Awake() { }
 
-    public virtual void LogicUpdate() { }
+  public virtual void LogicUpdate() { }
 }
