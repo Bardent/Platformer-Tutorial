@@ -42,7 +42,7 @@ TextureImporter:
       213: 5677248445090269321
     second: CombatDummy_DeathSprites_12
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,6 +62,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -71,8 +73,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -93,9 +95,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -431,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CombatDummy_DeathSprites_3: -3289254020053323575
+      CombatDummy_DeathSprites_6: -1680898079090682939
+      CombatDummy_DeathSprites_11: -4186059436748912931
+      CombatDummy_DeathSprites_1: 279511022437664833
+      CombatDummy_DeathSprites_0: -7640968582719819219
+      CombatDummy_DeathSprites_5: 3600903608442153538
+      CombatDummy_DeathSprites_7: 3579150919704746648
+      CombatDummy_DeathSprites_12: 5677248445090269321
+      CombatDummy_DeathSprites_9: -4252721756535327238
+      CombatDummy_DeathSprites_2: 889796264374587942
+      CombatDummy_DeathSprites_4: 7436222385416286612
+      CombatDummy_DeathSprites_10: -1416618068245269184
+      CombatDummy_DeathSprites_8: -8264435973918152634
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -59,6 +59,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,8 +70,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -90,9 +92,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
@@ -384,6 +389,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rogue_Run1_10: 5155679588490090415
+      Rogue_Run1_3: 263366997391374975
+      Rogue_Run1_8: 1056344625273523650
+      Rogue_Run1_11: -2122372768183330571
+      Rogue_Run1_0: -4181508897189473628
+      Rogue_Run1_2: -6402774569294094473
+      Rogue_Run1_5: 3495243308791833988
+      Rogue_Run1_4: -4772273544990781700
+      Rogue_Run1_9: 6207292802568187106
+      Rogue_Run1_6: 1680270363254282998
+      Rogue_Run1_7: -7291337419915926043
+      Rogue_Run1_1: -2264149929742678826
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

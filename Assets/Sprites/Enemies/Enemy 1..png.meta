@@ -69,7 +69,7 @@ TextureImporter:
       213: 8891641094821899385
     second: Enemy 1._21
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -98,8 +100,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -120,9 +122,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -647,6 +653,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Enemy 1._6: -8627900172623640861
+      Enemy 1._21: 8891641094821899385
+      Enemy 1._9: -444941430058197376
+      Enemy 1._19: -3586365684883712197
+      Enemy 1._12: -9168933530906344689
+      Enemy 1._2: -3534128873376691213
+      Enemy 1._5: 5551627138973733538
+      Enemy 1._18: -4101914071294637052
+      Enemy 1._14: -2875918310827006577
+      Enemy 1._16: -7402255816353280563
+      Enemy 1._15: -6309077428880181508
+      Enemy 1._1: 6397291278005296623
+      Enemy 1._17: -6885323145982427250
+      Enemy 1._11: -3442504129770722089
+      Enemy 1._7: 7759695268811524661
+      Enemy 1._4: 908546101304207110
+      Enemy 1._10: -2763531583732583004
+      Enemy 1._20: -2329128265633731262
+      Enemy 1._8: 4998754744837922504
+      Enemy 1._13: 3314014981494999602
+      Enemy 1._3: -624389814978380750
+      Enemy 1._0: -450497991343149109
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

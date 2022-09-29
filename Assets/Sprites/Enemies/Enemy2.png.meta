@@ -123,7 +123,7 @@ TextureImporter:
       213: -7533016229412860105
     second: Enemy2_39
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -143,6 +143,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,8 +154,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -174,9 +176,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1079,6 +1085,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Enemy2_38: -4880683697389990350
+      Enemy2_1: 4566099760326480194
+      Enemy2_2: -6022894079859659142
+      Enemy2_15: 3481771537602468646
+      Enemy2_21: 1384057024786426341
+      Enemy2_11: -2312543500439347380
+      Enemy2_33: -1229239229188488085
+      Enemy2_19: -3646018265996170798
+      Enemy2_23: 2039771104907931013
+      Enemy2_10: -4394945544779488877
+      Enemy2_13: 3883302593958210567
+      Enemy2_34: -597300093870726346
+      Enemy2_26: 8357696472806576956
+      Enemy2_16: -6338137201512800206
+      Enemy2_8: -5481205667925448380
+      Enemy2_35: -5015791269335395396
+      Enemy2_3: -7149371478718136880
+      Enemy2_25: -1360991794281634085
+      Enemy2_36: -4138430642698671901
+      Enemy2_14: 3168654379161990858
+      Enemy2_7: -9009188383509947307
+      Enemy2_18: -6848615108411016946
+      Enemy2_32: -198609856583010865
+      Enemy2_39: -7533016229412860105
+      Enemy2_30: -7830629148187945113
+      Enemy2_24: -4108931989579741912
+      Enemy2_27: -732321322911358600
+      Enemy2_9: -6949323471574244179
+      Enemy2_31: -3232979925006638318
+      Enemy2_37: -1409226057249421436
+      Enemy2_0: 7723652632321733531
+      Enemy2_28: -2489239453094235984
+      Enemy2_29: -2189509046309826149
+      Enemy2_17: 5092131666057547829
+      Enemy2_12: 4594083807023469819
+      Enemy2_22: -6206436220460562759
+      Enemy2_4: 8810748929610878751
+      Enemy2_5: 2992058599336829362
+      Enemy2_6: -2388611721508771250
+      Enemy2_20: 3206142935482697528
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
