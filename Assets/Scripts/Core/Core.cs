@@ -3,39 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class Core : MonoBehaviour {
+public class Core : MonoBehaviour
+{
+    private readonly List<CoreComponent> CoreComponents = new List<CoreComponent>();
 
-	private readonly List<CoreComponent> CoreComponents = new List<CoreComponent>();
+    private void Awake()
+    {
+    }
 
-	private void Awake() {
+    public void LogicUpdate()
+    {
+        foreach (CoreComponent component in CoreComponents)
+        {
+            component.LogicUpdate();
+        }
+    }
 
-	}
+    public void AddComponent(CoreComponent component)
+    {
+        if (!CoreComponents.Contains(component))
+        {
+            CoreComponents.Add(component);
+        }
+    }
 
-	public void LogicUpdate() {
-		foreach (CoreComponent component in CoreComponents) {
-			component.LogicUpdate();
-		}
-	}
+    public T GetCoreComponent<T>() where T : CoreComponent
+    {
+        var comp = CoreComponents.OfType<T>().FirstOrDefault();
 
-	public void AddComponent(CoreComponent component) {
-		if (!CoreComponents.Contains(component)) {
-			CoreComponents.Add(component);
-		}
-	}
+        if (comp)
+            return comp;
 
-	public T GetCoreComponent<T>() where T : CoreComponent {
-		var comp = CoreComponents.OfType<T>().FirstOrDefault();
+        comp = GetComponentInChildren<T>();
 
-		if (comp == null) {
-			Debug.LogWarning($"{typeof(T)} not found on {transform.parent.name}");
-		}
+        if (comp)
+            return comp;
 
-		return comp;
-	}
+        Debug.LogWarning($"{typeof(T)} not found on {transform.parent.name}");
+        return null;
+    }
 
-	public T GetCoreComponent<T>(ref T value) where T : CoreComponent {
-		value = GetCoreComponent<T>();
-		return value;
-	}
-
+    public T GetCoreComponent<T>(ref T value) where T : CoreComponent
+    {
+        value = GetCoreComponent<T>();
+        return value;
+    }
 }
